@@ -1,5 +1,5 @@
-from SoulutionNR9 import SolNR9
+from removeDuplicates import SolNR26
 
-list1 = [1,2,3,4]
+list1 = [1,2,2,2,2,3,4]
 list2 = [1,2,3,8]
-print(SolNR9.mergeTwoLists('', list1, list2))
+print(SolNR26.removeDuplicates('',list1))

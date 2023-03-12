@@ -1,7 +1,10 @@
-from removeElement import SolNR27
+from addTwoNumbers import SolNR2
 
-list1 = [1,2,2,2,2,3,4]
-list2 = [1,2,3,8]
+list1 = [1,4]
+list2 = [9,6]
 
-SolNR27.removeElement('', list1, 1)
-print(list1)
+print(SolNR2.addTwoNumbers('', list1, list2))
+
+
+
+

@@ -1,5 +1,7 @@
-from removeDuplicates import SolNR26
+from removeElement import SolNR27
 
 list1 = [1,2,2,2,2,3,4]
 list2 = [1,2,3,8]
-print(SolNR26.removeDuplicates('',list1))
+
+SolNR27.removeElement('', list1, 1)
+print(list1)

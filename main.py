@@ -1,5 +1,7 @@
-from SoulutionNR9 import SolNR9
+from removeElement import SolNR27
 
-list1 = [1,2,3,4]
+list1 = [1,2,2,2,2,3,4]
 list2 = [1,2,3,8]
-print(SolNR9.mergeTwoLists('', list1, list2))
+
+SolNR27.removeElement('', list1, 1)
+print(list1)

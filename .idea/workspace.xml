@@ -4,10 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36616361-fc79-4851-a190-a7fbab495ef6" name="Changes" comment="modified for solnr9">
-      <change afterPath="$PROJECT_DIR$/removeDuplicates.py" afterDir="false" />
+    <list default="true" id="36616361-fc79-4851-a190-a7fbab495ef6" name="Changes" comment=".">
+      <change afterPath="$PROJECT_DIR$/removeElement.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/SoulutionNR9.py" beforeDir="false" afterPath="$PROJECT_DIR$/mergeTwoLists.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -88,7 +87,8 @@
       <workItem from="1678400814192" duration="1136000" />
       <workItem from="1678467003858" duration="3527000" />
       <workItem from="1678474002529" duration="3496000" />
-      <workItem from="1678559612614" duration="647000" />
+      <workItem from="1678559612614" duration="878000" />
+      <workItem from="1678655266384" duration="1278000" />
     </task>
     <task id="LOCAL-00001" summary="Finished mergeTwoLists method">
       <created>1678476931006</created>
@@ -111,7 +111,35 @@
       <option name="project" value="LOCAL" />
       <updated>1678477251850</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="return a unique values of list">
+      <created>1678560422082</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1678560422082</updated>
+    </task>
+    <task id="LOCAL-00005" summary="return a unique values of list">
+      <created>1678560428846</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1678560428846</updated>
+    </task>
+    <task id="LOCAL-00006" summary="Merge two lists">
+      <created>1678560471619</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1678560471619</updated>
+    </task>
+    <task id="LOCAL-00007" summary=".">
+      <created>1678560476798</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1678560476798</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -121,10 +149,13 @@
     <MESSAGE value="Finished mergeTwoLists method" />
     <MESSAGE value="add new class to place there solution" />
     <MESSAGE value="modified for solnr9" />
-    <option name="LAST_COMMIT_MESSAGE" value="modified for solnr9" />
+    <MESSAGE value="return a unique values of list" />
+    <MESSAGE value="Merge two lists" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/leetcode$main.coverage" NAME="main Coverage Results" MODIFIED="1678560258528" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$main.coverage" NAME="main Coverage Results" MODIFIED="1678656317819" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject1$main.coverage" NAME="main Coverage Results" MODIFIED="1678469320171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

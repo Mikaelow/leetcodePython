@@ -1,10 +1,9 @@
-from addTwoNumbers import SolNR2
+from lengthOfLongestSubstring import SolNR
 
 list1 = [1,4]
 list2 = [9,6]
-
-print(SolNR2.addTwoNumbers('', list1, list2))
-
+a='bwf'
+print(SolNR.lengthOfLongestString('', a))
 
 
 

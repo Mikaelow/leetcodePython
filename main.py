@@ -1,9 +1,9 @@
-from lengthOfLongestSubstring import SolNR
+from lengthOfLongestSubstring import SolNR3
 
 list1 = [1,4]
 list2 = [9,6]
-a='bwf'
-print(SolNR.lengthOfLongestString('', a))
+a='asjrgapa'
+print(SolNR3().lengthOfLongestSubstring(a))
 
 
 

@@ -1,7 +1,6 @@
 class SolNR5:
     def longestPalindrome2(self, s: str):
         resoult = []
-
         for i in range(len(s)):
             resoultFirst = []
             resoultSecond = []

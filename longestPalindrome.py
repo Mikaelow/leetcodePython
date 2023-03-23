@@ -1,24 +1,31 @@
 class SolNR5:
-    def longestPalindrome(self, s:str):
-        nChars = 1
-        resoults = []
-        #loop for i size of curentString
-        while nChars < len(s):
-            for startOfRange in range(len(s)-nChars):
-                curentString = []
-                reverseString = []
-                for i in range(startOfRange, startOfRange+nChars+1):
-                    curentString.append(s[i])
-                    reverseString.append(s[i])
-                reverseString.reverse()
-                if curentString == reverseString:
-                    resoults.append(''.join(curentString))
+    def longestPalindrome2(self, s: str):
+        resoult = []
+
+        for i in range(len(s)):
+            resoultFirst = []
+            resoultSecond = []
+            j = i
+            k = i
+            while j > -1 and k < len(s):
+                if s[j] == s[k]:
+                    resoultFirst = s[j:k + 1]
+                    j -= 1
+                    k += 1
                 else:
-                    pass
+                    break
+            k = i+1
+            j = i
+            while j > -1 and k < len(s):
+                if s[j] == s[k]:
+                    resoultSecond = s[j:k+1]
+                    j -= 1
+                    k += 1
 
-            nChars = nChars+1
-        try:
-            return max(resoults, key=len)
-        except:
-            return '' if len(s) == 0 else ''.join(s[0])
-
+                else:
+                    break
+            if len(resoultFirst) > len(resoultSecond):
+                resoult = max([resoult, resoultFirst], key=len)
+            else:
+                resoult = max([resoult, resoultSecond], key=len)
+        return resoult

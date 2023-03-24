@@ -15,8 +15,6 @@ class SolNR:
                     counter = 1
                 position = alphabet.find(s[i])
                 i = i + 1
-
-
             listOfK.append(counter)
             position = alphabet.find(s[0])
             counter = 1

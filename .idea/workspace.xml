@@ -4,8 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36616361-fc79-4851-a190-a7fbab495ef6" name="Changes" comment="Find_the_Index_of_the_First_Occurrence_in_a_String finihed">
+    <list default="true" id="36616361-fc79-4851-a190-a7fbab495ef6" name="Changes" comment="new longestPalindrome update">
+      <change afterPath="$PROJECT_DIR$/zigzagConversion.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/lengthOfLongestNextCharFromAlphabeth.py" beforeDir="false" afterPath="$PROJECT_DIR$/lengthOfLongestNextCharFromAlphabeth.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/longestPalindrome.py" beforeDir="false" afterPath="$PROJECT_DIR$/longestPalindrome.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -99,7 +101,8 @@
       <workItem from="1679250543612" duration="3201000" />
       <workItem from="1679437662495" duration="1085000" />
       <workItem from="1679524324327" duration="167000" />
-      <workItem from="1679605076561" duration="4908000" />
+      <workItem from="1679605076561" duration="5640000" />
+      <workItem from="1679696110915" duration="2268000" />
     </task>
     <task id="LOCAL-00001" summary="Finished mergeTwoLists method">
       <created>1678476931006</created>
@@ -220,7 +223,21 @@
       <option name="project" value="LOCAL" />
       <updated>1679438611666</updated>
     </task>
-    <option name="localTasksCounter" value="18" />
+    <task id="LOCAL-00018" summary="new longestPalindrome update">
+      <created>1679610170277</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1679610170277</updated>
+    </task>
+    <task id="LOCAL-00019" summary="new longestPalindrome update">
+      <created>1679610319492</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1679610319492</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -242,7 +259,8 @@
     <MESSAGE value="lengthOfLongestSubstring finished final form forma mutant" />
     <MESSAGE value="longestPalindrome.py finished it return string" />
     <MESSAGE value="Find_the_Index_of_the_First_Occurrence_in_a_String finihed" />
-    <option name="LAST_COMMIT_MESSAGE" value="Find_the_Index_of_the_First_Occurrence_in_a_String finihed" />
+    <MESSAGE value="new longestPalindrome update" />
+    <option name="LAST_COMMIT_MESSAGE" value="new longestPalindrome update" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -252,16 +270,11 @@
           <line>9</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/longestPalindrome.py</url>
-          <line>24</line>
-          <option name="timeStamp" value="6" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/leetcode$main.coverage" NAME="main Coverage Results" MODIFIED="1679610017233" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$main.coverage" NAME="main Coverage Results" MODIFIED="1679698385879" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject1$main.coverage" NAME="main Coverage Results" MODIFIED="1678469320171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

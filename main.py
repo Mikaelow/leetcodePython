@@ -1,9 +1,9 @@
-from longestPalindrome import SolNR5
+from zigzagConversion import SolNR6
 
 list1 = [1,4]
 list2 = [9,6]
-a='ab'
-print(SolNR5().longestPalindrome2(a))
+a='PAYPALISHIRING'
+print(SolNR6().convert(a,4))
 
 
 

@@ -20,7 +20,6 @@ class SolNR5:
                     resoultSecond = s[j:k+1]
                     j -= 1
                     k += 1
-
                 else:
                     break
             if len(resoultFirst) > len(resoultSecond):

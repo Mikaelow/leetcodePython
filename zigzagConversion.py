@@ -5,26 +5,27 @@ class SolNR6:
     def convert(self, s: str, howManyRows = 2):
         numbColumns = self.howManyColums(s, howManyRows)
         motherTab = []
-        # Create motherTab
         j = 0
+        nextPosition=howManyRows-1
         for _ in range(numbColumns):
             motherTab.append([])
-        for index, column in enumerate(motherTab):
-            for k in range(howManyRows):
-                if index % (howManyRows - 1) == 0:
+        for index,column in enumerate(motherTab):
+            for i in range(howManyRows):
+                if nextPosition == howManyRows-1 or nextPosition==0:
                     try:
                         column.append(s[j])
                         j += 1
                     except:
                         pass
-                column.append('')
-                elif index + len(column[k]) == howManyRows:
+                elif i == nextPosition:
                     column.append(s[j])
-                    j += 1
+                    j+=1
                 else:
                     column.append('')
-
-
+            if nextPosition == 1 or nextPosition == 0:
+                nextPosition=howManyRows-1
+            else:
+                nextPosition -= 1
         return motherTab
 
     def howManyColums(self, s: str, numRows):

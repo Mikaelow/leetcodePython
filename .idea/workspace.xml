@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36616361-fc79-4851-a190-a7fbab495ef6" name="Changes" comment="lengthOfLongestNextCharFromAlphabeth.py update">
+    <list default="true" id="36616361-fc79-4851-a190-a7fbab495ef6" name="Changes" comment="zigzagConversion.py huge upgrate">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zigzagConversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/zigzagConversion.py" afterDir="false" />
@@ -102,7 +102,8 @@
       <workItem from="1679605076561" duration="5640000" />
       <workItem from="1679696110915" duration="6192000" />
       <workItem from="1679786185585" duration="3273000" />
-      <workItem from="1680119117074" duration="4534000" />
+      <workItem from="1680119117074" duration="4796000" />
+      <workItem from="1680200264949" duration="989000" />
     </task>
     <task id="LOCAL-00001" summary="Finished mergeTwoLists method">
       <created>1678476931006</created>
@@ -258,7 +259,14 @@
       <option name="project" value="LOCAL" />
       <updated>1679698498347</updated>
     </task>
-    <option name="localTasksCounter" value="23" />
+    <task id="LOCAL-00023" summary="zigzagConversion.py huge upgrate">
+      <created>1680123917498</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1680123917498</updated>
+    </task>
+    <option name="localTasksCounter" value="24" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -284,7 +292,8 @@
     <MESSAGE value="zigzag create motherTab" />
     <MESSAGE value="longestPalindrome.py update" />
     <MESSAGE value="lengthOfLongestNextCharFromAlphabeth.py update" />
-    <option name="LAST_COMMIT_MESSAGE" value="lengthOfLongestNextCharFromAlphabeth.py update" />
+    <MESSAGE value="zigzagConversion.py huge upgrate" />
+    <option name="LAST_COMMIT_MESSAGE" value="zigzagConversion.py huge upgrate" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -296,14 +305,14 @@
         </line-breakpoint>
         <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
           <url>file://$PROJECT_DIR$/zigzagConversion.py</url>
-          <line>11</line>
-          <option name="timeStamp" value="12" />
+          <line>43</line>
+          <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/leetcode$main.coverage" NAME="main Coverage Results" MODIFIED="1680123688611" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$main.coverage" NAME="main Coverage Results" MODIFIED="1680201260147" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject1$main.coverage" NAME="main Coverage Results" MODIFIED="1678469320171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

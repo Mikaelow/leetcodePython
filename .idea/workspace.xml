@@ -4,9 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36616361-fc79-4851-a190-a7fbab495ef6" name="Changes" comment="zigzagConversion.py finished">
-      <change afterPath="$PROJECT_DIR$/reverseInteger.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="36616361-fc79-4851-a190-a7fbab495ef6" name="Changes" comment="half done">
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/zigzagConversion.py" beforeDir="false" afterPath="$PROJECT_DIR$/zigzagConversion.py" afterDir="false" />
     </list>
@@ -105,7 +103,7 @@
       <workItem from="1679786185585" duration="3273000" />
       <workItem from="1680119117074" duration="4796000" />
       <workItem from="1680200264949" duration="2957000" />
-      <workItem from="1680555847720" duration="1399000" />
+      <workItem from="1680555847720" duration="1699000" />
     </task>
     <task id="LOCAL-00001" summary="Finished mergeTwoLists method">
       <created>1678476931006</created>
@@ -275,7 +273,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680201524764</updated>
     </task>
-    <option name="localTasksCounter" value="25" />
+    <task id="LOCAL-00025" summary="half done">
+      <created>1680557389584</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1680557389584</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -303,7 +308,8 @@
     <MESSAGE value="lengthOfLongestNextCharFromAlphabeth.py update" />
     <MESSAGE value="zigzagConversion.py huge upgrate" />
     <MESSAGE value="zigzagConversion.py finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="zigzagConversion.py finished" />
+    <MESSAGE value="half done" />
+    <option name="LAST_COMMIT_MESSAGE" value="half done" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -313,16 +319,11 @@
           <line>9</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/zigzagConversion.py</url>
-          <line>43</line>
-          <option name="timeStamp" value="4" />
-        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/leetcode$main.coverage" NAME="main Coverage Results" MODIFIED="1680557249491" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$main.coverage" NAME="main Coverage Results" MODIFIED="1680557536281" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject1$main.coverage" NAME="main Coverage Results" MODIFIED="1678469320171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

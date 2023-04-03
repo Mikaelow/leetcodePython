@@ -43,11 +43,14 @@ class SolNR6:
         return counter - 1
     def returningStrint(self,table: list):
         string=''
-        for i in range(len(table[0])):
+        j=0
+        for i in range(len(table[j])):
             for j in range(len(table)):
                 try:
                     string +=table[j][i] + ''
                 except:
                     pass
+
         return string
+
 

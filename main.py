@@ -1,9 +1,9 @@
-from zigzagConversion import SolNR6
+from reverseInteger import SolNR7
 
 list1 = [1,4]
 list2 = [9,6]
 a='PAYPALISHIRING'
-print(SolNR6().convert(a,4))
+print(SolNR7().reverse(2))
 
 
 

@@ -7,12 +7,16 @@ class SolNR7:
             xStringList.pop(0)
         xStringList.reverse()
         for i in xStringList:
-            if i == '0':
+            if i == '0' and reversedList=='':
                 pass
             else:
                 reversedList.append(i)
         try:
-            return int(''.join(reversedList))
+            reverseInt=int(''.join(reversedList))
+            if reverseInt in range(-(2**31),(2**31)-1):
+                return reverseInt
+            else:
+                return 0
         except:
             return x
 

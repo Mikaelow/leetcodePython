@@ -1,9 +1,10 @@
-from reverseInteger import SolNR7
+from reverseBits import SolNR190
 
 list1 = [1,4]
 list2 = [9,6]
 a='PAYPALISHIRING'
-print(SolNR7().reverse(1534236))
+n=11111111111111111111111111111101
+print(SolNR190().reverseBits(n))
 
 
 

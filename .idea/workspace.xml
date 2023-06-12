@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36616361-fc79-4851-a190-a7fbab495ef6" name="Changes" comment="reverseInteger.py finished">
-      <change afterPath="$PROJECT_DIR$/reverseBits.py" afterDir="false" />
+    <list default="true" id="36616361-fc79-4851-a190-a7fbab495ef6" name="Changes" comment="dziala tylko w jedna strone tzn do przodu poprawnie trzeba dodac do tyłu lub zmienic cała konstrukcje programu">
+      <change afterPath="$PROJECT_DIR$/FindSmallestLetterGreaterThanTarget.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
@@ -38,7 +38,7 @@
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/IdeaProjects/leetcode&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/User/Desktop/programowanie/IdeaProjects/leetcode&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
@@ -105,7 +105,11 @@
       <workItem from="1680119117074" duration="4796000" />
       <workItem from="1680200264949" duration="2957000" />
       <workItem from="1680555847720" duration="1903000" />
-      <workItem from="1680727301177" duration="3209000" />
+      <workItem from="1680727301177" duration="3241000" />
+      <workItem from="1681582107418" duration="29000" />
+      <workItem from="1683751898021" duration="20000" />
+      <workItem from="1686338756976" duration="3805000" />
+      <workItem from="1686592410525" duration="859000" />
     </task>
     <task id="LOCAL-00001" summary="Finished mergeTwoLists method">
       <created>1678476931006</created>
@@ -296,7 +300,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680728450344</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary=".">
+      <created>1680733888500</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1680733888500</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -308,7 +319,6 @@
     <MESSAGE value="modified for solnr9" />
     <MESSAGE value="return a unique values of list" />
     <MESSAGE value="Merge two lists" />
-    <MESSAGE value="." />
     <MESSAGE value="remove element from list" />
     <MESSAGE value="basic" />
     <MESSAGE value="addTwoNumbers" />
@@ -327,7 +337,8 @@
     <MESSAGE value="half done" />
     <MESSAGE value=" returnString update" />
     <MESSAGE value="reverseInteger.py finished" />
-    <option name="LAST_COMMIT_MESSAGE" value="reverseInteger.py finished" />
+    <MESSAGE value="." />
+    <option name="LAST_COMMIT_MESSAGE" value="." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
@@ -341,7 +352,7 @@
     </breakpoint-manager>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/leetcode$main.coverage" NAME="main Coverage Results" MODIFIED="1680729655575" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
+    <SUITE FILE_PATH="coverage/leetcode$main.coverage" NAME="main Coverage Results" MODIFIED="1686593267943" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
     <SUITE FILE_PATH="coverage/pythonProject1$main.coverage" NAME="main Coverage Results" MODIFIED="1678469320171" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$" />
   </component>
 </project>

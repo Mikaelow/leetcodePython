@@ -1,10 +1,9 @@
-from reverseBits import SolNR190
+from FindSmallestLetterGreaterThanTarget import SolNR744
 
 list1 = [1,4]
 list2 = [9,6]
-a='PAYPALISHIRING'
-n=11111111111111111111111111111101
-print(SolNR190().reverseBits(n))
+letters = ["x","x","y","y"]; target = "z"
+print(SolNR744().solution(letters,target))
 
 
 

@@ -4,10 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="36616361-fc79-4851-a190-a7fbab495ef6" name="Changes" comment="dziala tylko w jedna strone tzn do przodu poprawnie trzeba dodac do tyłu lub zmienic cała konstrukcje programu">
-      <change afterPath="$PROJECT_DIR$/FindSmallestLetterGreaterThanTarget.py" afterDir="false" />
+    <list default="true" id="36616361-fc79-4851-a190-a7fbab495ef6" name="Changes" comment="fixed działa dobrze">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -109,7 +107,8 @@
       <workItem from="1681582107418" duration="29000" />
       <workItem from="1683751898021" duration="20000" />
       <workItem from="1686338756976" duration="3805000" />
-      <workItem from="1686592410525" duration="859000" />
+      <workItem from="1686592410525" duration="1753000" />
+      <workItem from="1690399959456" duration="1292000" />
     </task>
     <task id="LOCAL-00001" summary="Finished mergeTwoLists method">
       <created>1678476931006</created>
@@ -307,7 +306,14 @@
       <option name="project" value="LOCAL" />
       <updated>1680733888500</updated>
     </task>
-    <option name="localTasksCounter" value="29" />
+    <task id="LOCAL-00029" summary="fixed działa dobrze">
+      <created>1686593299894</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1686593299894</updated>
+    </task>
+    <option name="localTasksCounter" value="30" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -338,7 +344,8 @@
     <MESSAGE value=" returnString update" />
     <MESSAGE value="reverseInteger.py finished" />
     <MESSAGE value="." />
-    <option name="LAST_COMMIT_MESSAGE" value="." />
+    <MESSAGE value="fixed działa dobrze" />
+    <option name="LAST_COMMIT_MESSAGE" value="fixed działa dobrze" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

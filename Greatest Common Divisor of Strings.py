@@ -1,6 +1,4 @@
 class Solution:
-    def __init__(self) -> None:
-        pass
     def divisor(string : str) -> str:
         memory = ''
         for s in string:

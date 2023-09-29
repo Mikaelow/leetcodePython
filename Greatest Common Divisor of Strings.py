@@ -1,4 +1,14 @@
 class Solution:
+    def __init__(self) -> None:
+        pass
+    def divisor(string : str) -> str:
+        memory = ''
+        for s in string:
+            if s in memory:
+                break
+            else:
+                memory = memory + s
+        return memory
     def gcdOfStrings(self, str1: str, str2: str) -> str:
         resoult = ''
         shorter_string = min(str1,str2)
@@ -8,10 +18,11 @@ class Solution:
                 resoult = resoult + char_low_str
             else:
                 break
-        return resoult
- 
+        return Solution.divisor(resoult)
+
+
 
 if __name__ == '__main__':
-    str1 = "ABABABAB"
-    str2 = "ABAB"
+    str1 = "ABCDEF"
+    str2 = "ABC"
     print(Solution().gcdOfStrings(str1,str2)) 
